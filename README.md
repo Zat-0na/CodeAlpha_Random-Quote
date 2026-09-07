@@ -1,17 +1,20 @@
-# quote_generator
+# ✨ Random Quote Generator
 
-A new Flutter project.
+A simple and clean Flutter application that fetches and displays random quotes from the DummyJSON Quotes API. Built as part of the CodeAlpha Internship program.
 
-## Getting Started
+## 📸 Features
 
-This project is a starting point for a Flutter application.
+* **🔄 Random Quotes** — Fetch a new inspirational quote with a single tap
+* **🎨 Elegant UI** — Clean, minimal design with a customized background and user interface
 
-A few resources to get you started if this is your first Flutter project:
+## 🏗️ Architecture
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```text
+quote_generator/
+├── assets/images/
+│   └── 205_LE_upscale_prime.jpg
+├── lib/
+│   ├── Models/
+│   │   └── quotes_data.dart
+│   ├── main.dart
+│   └── random_quote.dart
