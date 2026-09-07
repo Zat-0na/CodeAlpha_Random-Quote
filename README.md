@@ -25,35 +25,43 @@ quote_generator/
 | **Networking** | Dio (^5.11.1) |
 | **Icons** | Cupertino Icons (^1.0.8) |
 
-**🚀 Getting Started**
-Prerequisites
+## 🚀 Getting Started
+
+**Prerequisites**
 Flutter SDK (≥ 3.0.0)
-
 Dart SDK
-
 An IDE (VS Code or Android Studio)
 
-Installation
-Clone the repository:
-
-Bash
+**Installation**
+1- Clone the repository:
+```text
 git clone [https://github.com/Zat-0na/CodeAlpha_Random-Quote.git](https://github.com/Zat-0na/CodeAlpha_Random-Quote.git)
-cd CodeAlpha_Random-Quote
-Install dependencies:
-
-Bash
+```
+2- Install dependencies:
+```text
 flutter pub get
-Run the app:
+```
 
-Bash
+3- Run the app:
+```text
 flutter run
-🌐 API
+```
+
+## 🌐 API
 This app uses the DummyJSON Quotes API:
 
 Endpoint: https://dummyjson.com/quotes
 
 Method: GET
 
+Sample Response:
+```text
+{
+  "id": 1,
+  "quote": "Life isn't about getting and having, it's about giving and being.",
+  "author": "Kevin Kruse"
+}
+```
 Description: Fetches a list of quotes to display randomly.
 
 📄 License
